@@ -17,7 +17,7 @@ def partition(start, end, data):
         #Decrement the end pointer till it finds an element less than pivot
         while data[end] > pivot:
             end -= 1
-        #If start and end have not crossed each otehr , swap the numbers
+        #If start and end have not crossed each other , swap the numbers
         if(start < end):
             data[start], data[end] = data[end], data[start]
     data[end], data[pivot_index] = data[pivot_index], data[end]
