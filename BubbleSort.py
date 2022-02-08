@@ -1,8 +1,5 @@
-from dataclasses import dataclass
-from random import seed
 from random import randint
  
-seed(1)
 data = []
 
 for i in range(10):
